@@ -253,7 +253,7 @@ export default function App() {
               <div className="space-y-2">
                 <div className="flex items-center justify-between">
                   <Label htmlFor="tile-size">Tile Size</Label>
-                  <span className="text-sm text-gray-600">{tileSize}px</span>
+                  <span className="text-sm text-gray-600 inline-block w-[52px] text-right">{tileSize}px</span>
                 </div>
                 <Slider
                   id="tile-size"
